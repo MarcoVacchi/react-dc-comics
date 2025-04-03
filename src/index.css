@@ -60,11 +60,18 @@
    display: flex;
    justify-content: center;
    align-items: center;
-   font-weight: 500;
  }
 
  .icon {
    padding: 50px;
    list-style-type: none;
    color: white;
+ }
+
+ .img-icon {
+   width: 20%;
+ }
+
+ .img-icon-svg {
+   width: 20%;
  }
