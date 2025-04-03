@@ -8,8 +8,8 @@
    box-sizing: border-box;
  }
 
- body {
-   background-color: white;
+ .body {
+   background-color: #303030;
  }
 
  header {
@@ -81,8 +81,6 @@
 
  .container-footer {
    background-image: url(./assets/img/footer-bg.jpg);
-   background-color: #1c1c1c;
-   height: 1000px;
    position: relative;
  }
 
@@ -96,15 +94,49 @@
  .h3-footer {
    color: white;
    font-weight: bold;
+   margin-top: 45px;
+   margin-right: 100px;
  }
 
  .card {
    display: flex;
    margin-left: 220px;
+   margin-bottom: 60px;
  }
 
- li {
+ .opacity {
    list-style-type: none;
    color: white;
-   opacity: 1;
+   opacity: 0.5;
+ }
+
+ .bar-footer {
+   background-color: #303030;
+   height: 130px;
+   position: relative;
+ }
+
+ .border {
+   border: 1px solid #0282f9;
+   padding: 10px;
+ }
+
+ .row-footer {
+   display: flex;
+   justify-content: space-around;
+   gap: 70px;
+ }
+
+ .t-azure {
+   color: #0282f9;
+ }
+
+ .icon-footer {
+   width: 30px;
+   height: 30px;
+   margin-top: 40px;
+ }
+
+ .d-flex {
+   display: flex;
  }
