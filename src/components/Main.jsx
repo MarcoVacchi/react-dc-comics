@@ -13,7 +13,7 @@ function Main() {
                 </div>
                 <div class="container-main">
                     <ul class="icon-list">
-                        <li class="icon"><img src={imageIconOne} alt="icon-1" class="img-icon" /><span>DIGITAL COMICS</span></li>
+                        <li class="icon"><img src={imageIconOne} alt="icon-1" class="img-icon" />DIGITAL COMICS</li>
                         <li class="icon"><img src={imageIconTwo} alt="icon-2" class="img-icon" />DC MERCHANDISE</li>
                         <li class="icon"><img src={imageIconThree} alt="icon-3" class="img-icon" />SUBSCRIPTION</li>
                         <li class="icon"><img src={imageIconFour} alt="icon-4" class="img-icon" />COMIC SHOP LOCATOR</li>
