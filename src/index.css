@@ -17,7 +17,7 @@
    justify-content: space-around;
  }
 
- ul {
+ .ul-class {
    display: flex;
    justify-content: center;
    align-items: center;
@@ -28,7 +28,7 @@
    padding: 10px;
  }
 
- li {
+ .margin {
    margin-right: 15px;
    list-style-type: none;
  }
@@ -39,4 +39,32 @@
 
  main {
    background-color: brown;
+ }
+
+ h1 {
+   padding: 50px;
+   margin-left: 220px;
+ }
+
+ .container-h1 {
+   color: white;
+   font-weight: 700;
+   background-color: #1c1c1c
+ }
+
+ .container-main {
+   background-color: #0282f9;
+ }
+
+ .icon-list {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-weight: 500;
+ }
+
+ .icon {
+   padding: 50px;
+   list-style-type: none;
+   color: white;
  }
