@@ -69,6 +69,8 @@
    padding: 50px;
    list-style-type: none;
    color: white;
+   display: flex;
+   gap: 30px;
  }
 
  .img-icon {

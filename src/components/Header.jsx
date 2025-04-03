@@ -11,7 +11,7 @@ function Header() {
                 <nav>
                     <ul class="ul-class">
                         <li class="margin">CHARACTERS</li>
-                        <li class="margin">COMICS</li>
+                        <li class="margin t-azure">COMICS</li>
                         <li class="margin">MOVIES</li>
                         <li class="margin">TV</li>
                         <li class="margin">GAMES</li>
