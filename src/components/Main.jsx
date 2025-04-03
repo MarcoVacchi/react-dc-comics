@@ -5,11 +5,14 @@ import imageIconFour from "../assets/img/buy-comics-subscriptions.png";
 import imageIconFive from "../assets/img/buy-dc-power-visa.svg";
 function Main() {
 
+    const arrowLeft = "-->";
+    const arrowRight = "<--";
+
     return (
         <>
             <main>
                 <div className="container-h1">
-                    <h1>Content goes here</h1>
+                    <h1>{arrowLeft}Content goes here{arrowRight}</h1>
                 </div>
                 <div className="container-main">
                     <ul className="icon-list">
