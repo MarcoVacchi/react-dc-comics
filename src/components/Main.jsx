@@ -8,16 +8,16 @@ function Main() {
     return (
         <>
             <main>
-                <div class="container-h1">
+                <div className="container-h1">
                     <h1>Content goes here</h1>
                 </div>
-                <div class="container-main">
-                    <ul class="icon-list">
-                        <li class="icon"><img src={imageIconOne} alt="icon-1" class="img-icon" /><span>DIGITAL COMICS</span></li>
-                        <li class="icon"><img src={imageIconTwo} alt="icon-2" class="img-icon" />DC MERCHANDISE</li>
-                        <li class="icon"><img src={imageIconThree} alt="icon-3" class="img-icon" />SUBSCRIPTION</li>
-                        <li class="icon"><img src={imageIconFour} alt="icon-4" class="img-icon" />COMIC SHOP LOCATOR</li>
-                        <li class="icon"><img src={imageIconFive} alt="icon-5" class="img-icon-svg" />DC POWER VISA</li>
+                <div className="container-main">
+                    <ul className="icon-list">
+                        <li className="icon"><img src={imageIconOne} alt="icon-1" className="img-icon" /><span>DIGITAL COMICS</span></li>
+                        <li className="icon"><img src={imageIconTwo} alt="icon-2" className="img-icon" />DC MERCHANDISE</li>
+                        <li className="icon"><img src={imageIconThree} alt="icon-3" className="img-icon" />SUBSCRIPTION</li>
+                        <li className="icon"><img src={imageIconFour} alt="icon-4" className="img-icon" />COMIC SHOP LOCATOR</li>
+                        <li className="icon"><img src={imageIconFive} alt="icon-5" className="img-icon-svg" />DC POWER VISA</li>
                     </ul>
                 </div>
             </main>

@@ -9,17 +9,17 @@ function Header() {
                     <Logo />
                 </figure>
                 <nav>
-                    <ul class="ul-class">
-                        <li class="margin">CHARACTERS</li>
-                        <li class="margin t-azure">COMICS</li>
-                        <li class="margin">MOVIES</li>
-                        <li class="margin">TV</li>
-                        <li class="margin">GAMES</li>
-                        <li class="margin">COLLECTIBLES</li>
-                        <li class="margin">VIDEOS</li>
-                        <li class="margin">FANS</li>
-                        <li class="margin">NEWS</li>
-                        <li class="margin">SHOP</li>
+                    <ul className="ul-class">
+                        <li className="margin">CHARACTERS</li>
+                        <li className="margin t-azure">COMICS</li>
+                        <li className="margin">MOVIES</li>
+                        <li className="margin">TV</li>
+                        <li className="margin">GAMES</li>
+                        <li className="margin">COLLECTIBLES</li>
+                        <li className="margin">VIDEOS</li>
+                        <li className="margin">FANS</li>
+                        <li className="margin">NEWS</li>
+                        <li className="margin">SHOP</li>
                     </ul>
                 </nav>
             </header>
