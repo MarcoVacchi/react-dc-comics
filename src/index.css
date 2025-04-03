@@ -91,3 +91,19 @@
    top: -40px;
    right: 300px;
  }
+
+ .h3-footer {
+   color: white;
+   font-weight: bold;
+ }
+
+ .card {
+   display: flex;
+   margin-left: 220px;
+ }
+
+ li {
+   list-style-type: none;
+   color: white;
+   opacity: 1;
+ }
