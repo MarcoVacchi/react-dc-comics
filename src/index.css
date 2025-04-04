@@ -36,11 +36,16 @@
    width: 0;
    height: 4px;
    background-color: #0282f9;
-   color: #0282f9;
+   text-decoration: #0282f9;
  }
 
  .hover-text:hover::after {
    width: 100%;
+ }
+
+ .no-decore {
+   text-decoration: none;
+   color: black;
  }
 
  .img-logo {
