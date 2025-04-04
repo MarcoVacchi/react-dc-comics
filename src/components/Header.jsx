@@ -10,16 +10,16 @@ function Header() {
                 </figure>
                 <nav>
                     <ul className="ul-class">
-                        <li className="margin">CHARACTERS</li>
-                        <li className="margin t-azure">COMICS</li>
-                        <li className="margin">MOVIES</li>
-                        <li className="margin">TV</li>
-                        <li className="margin">GAMES</li>
-                        <li className="margin">COLLECTIBLES</li>
-                        <li className="margin">VIDEOS</li>
-                        <li className="margin">FANS</li>
-                        <li className="margin">NEWS</li>
-                        <li className="margin">SHOP</li>
+                        <li className="margin hover-text">CHARACTERS</li>
+                        <li className="margin t-azure hover-text">COMICS</li>
+                        <li className="margin hover-text">MOVIES</li>
+                        <li className="margin hover-text">TV</li>
+                        <li className="margin hover-text">GAMES</li>
+                        <li className="margin hover-text">COLLECTIBLES</li>
+                        <li className="margin hover-text">VIDEOS</li>
+                        <li className="margin hover-text">FANS</li>
+                        <li className="margin hover-text">NEWS</li>
+                        <li className="margin hover-text">SHOP</li>
                     </ul>
                 </nav>
             </header>

@@ -24,6 +24,25 @@
    font-weight: 700;
  }
 
+ .hover-text {
+   position: relative;
+ }
+
+ .hover-text::after {
+   content: '';
+   position: absolute;
+   bottom: -53px;
+   left: 0;
+   width: 0;
+   height: 4px;
+   background-color: #0282f9;
+   color: #0282f9;
+ }
+
+ .hover-text:hover::after {
+   width: 100%;
+ }
+
  .img-logo {
    padding: 10px;
  }
@@ -89,7 +108,7 @@
  .img-dc {
    width: 30%;
    position: absolute;
-   top: -40px;
+   top: -60px;
    right: 300px;
  }
 
