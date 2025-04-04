@@ -5,7 +5,10 @@ import footerIconThree from '../assets/img/footer-youtube.png';
 import footerIconFour from '../assets/img/footer-pinterest.png';
 import footerIconFive from '../assets/img/footer-periscope.png';
 
-function Footer() {
+function Footer(props) {
+
+    const footerChild = props.childFooter;
+    console.log(footerChild)
 
     return (
         <>
@@ -16,45 +19,45 @@ function Footer() {
                         <div>
                             <h3 className="h3-footer">DC COMICS</h3>
                             <ul>
-                                <li className="opacity">Characters</li>
-                                <li className="opacity">Comics</li>
-                                <li className="opacity">Movies</li>
-                                <li className="opacity">TV</li>
-                                <li className="opacity">Games</li>
-                                <li className="opacity">Videos</li>
-                                <li className="opacity">News</li>
+                                <li className="opacity">{footerChild[0]}</li>
+                                <li className="opacity">{footerChild[1]}</li>
+                                <li className="opacity">{footerChild[2]}</li>
+                                <li className="opacity">{footerChild[3]}</li>
+                                <li className="opacity">{footerChild[4]}</li>
+                                <li className="opacity">{footerChild[5]}</li>
+                                <li className="opacity">{footerChild[6]}</li>
                             </ul>
                             <h3 className="h3-footer">SHOP</h3>
                             <ul>
-                                <li className="opacity">Shop DC</li>
-                                <li className="opacity">Shop DC Collectibles</li>
+                                <li className="opacity">{footerChild[7]}</li>
+                                <li className="opacity">{footerChild[8]}</li>
                             </ul>
                         </div>
 
                         <div>
                             <h3 className="h3-footer">DC COMICS</h3>
                             <ul>
-                                <li className="opacity">Term Of Use</li>
-                                <li className="opacity">Privacy policy (New)</li>
-                                <li className="opacity">Ad Choices</li>
-                                <li className="opacity">Advertising</li>
-                                <li className="opacity">Jobs</li>
-                                <li className="opacity">Subscriptions</li>
-                                <li className="opacity">CPSC Certificates</li>
-                                <li className="opacity">Ratings</li>
-                                <li className="opacity">Shop Help</li>
-                                <li className="opacity">Contact Us</li>
+                                <li className="opacity">{footerChild[9]}</li>
+                                <li className="opacity">{footerChild[10]}</li>
+                                <li className="opacity">{footerChild[11]}</li>
+                                <li className="opacity">{footerChild[12]}</li>
+                                <li className="opacity">{footerChild[13]}</li>
+                                <li className="opacity">{footerChild[14]}</li>
+                                <li className="opacity">{footerChild[15]}</li>
+                                <li className="opacity">{footerChild[16]}</li>
+                                <li className="opacity">{footerChild[17]}</li>
+                                <li className="opacity">{footerChild[18]}</li>
                             </ul>
                         </div>
 
                         <div>
                             <h3 className="h3-footer">DC COMICS</h3>
                             <ul>
-                                <li className="opacity">DC</li>
-                                <li className="opacity">MAD Magazine</li>
-                                <li className="opacity">DC Kids</li>
-                                <li className="opacity">DC Universe</li>
-                                <li className="opacity">DC Power Visa</li>
+                                <li className="opacity">{footerChild[19]}</li>
+                                <li className="opacity">{footerChild[20]}</li>
+                                <li className="opacity">{footerChild[21]}</li>
+                                <li className="opacity">{footerChild[22]}</li>
+                                <li className="opacity">{footerChild[23]}</li>
                             </ul>
                         </div>
                     </card>
