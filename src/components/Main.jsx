@@ -1,23 +1,18 @@
-// import imageIconOne from "../assets/img/buy-comics-digital-comics.png";
-// import imageIconTwo from "../assets/img/buy-comics-merchandise.png";
-// import imageIconThree from "../assets/img/buy-comics-shop-locator.png";
-// import imageIconFour from "../assets/img/buy-comics-subscriptions.png";
-// import imageIconFive from "../assets/img/buy-dc-power-visa.svg";
+
+import ProductCard from "./ProductCard";
 import Rowblue from "./rowBlue";
+import comicsArray from "../data/comics";
 
 function Main() {
-
-    const arrowLeft = "-->";
-    const arrowRight = "<--";
 
     return (
         <>
             <main>
                 <div className="container-h1">
-                    <h1>{arrowLeft}Content goes here{arrowRight}</h1>
+                    < ProductCard comicsArray={comicsArray} />
                 </div>
                 <div>
-                    {Rowblue}
+                    <Rowblue />
                 </div>
             </main>
 

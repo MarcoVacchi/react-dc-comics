@@ -1,6 +1,7 @@
 import Footer from './components/Footer'
 import Header from './components/Header'
 import Main from './components/Main'
+import ProductCard from './components/ProductCard'
 import Rowblue from './components/rowBlue'
 
 const arrayLink = [
@@ -49,7 +50,6 @@ function App() {
     <>
       <Header child={arrayLink} />
       <Main />
-      <Rowblue />
       <Footer childFooter={arrayFooter} />
     </>
   )
