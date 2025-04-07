@@ -171,6 +171,7 @@
  .img-card-dc {
    width: 180px;
    height: 180px;
+   margin-top: 40px;
  }
 
  .image-flex {
@@ -183,4 +184,31 @@
  .p-card-img {
    padding: 10px;
    max-width: 180px;
+ }
+
+ .img-jumbo {
+   height: 400px;
+   width: 100%;
+   background-size: contain;
+ }
+
+ .btn-bottom {
+   width: 180px;
+   padding: 10px;
+   color: white;
+   background-color: #0282f9;
+   margin-bottom: 30px;
+   margin-top: 30px;
+ }
+
+ .btn-top {
+   width: 200px;
+   padding: 10px;
+   color: white;
+   background-color: #0282f9;
+   font-weight: bold;
+   font-size: 18px;
+   position: absolute;
+   left: 120px;
+   top: 510px;
  }

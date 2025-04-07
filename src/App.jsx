@@ -3,6 +3,7 @@ import Header from './components/Header'
 import Main from './components/Main'
 import ProductCard from './components/ProductCard'
 import Rowblue from './components/rowBlue'
+import Jumbotron from './components/Jumbotron'
 
 const arrayLink = [
   "CHARACTERS",
@@ -49,6 +50,7 @@ function App() {
   return (
     <>
       <Header child={arrayLink} />
+      <Jumbotron />
       <Main />
       <Footer childFooter={arrayFooter} />
     </>

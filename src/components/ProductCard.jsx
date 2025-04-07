@@ -9,17 +9,20 @@ function ProductCard(props) {
 
     return (
         <>
+            <button className="btn-top">CURRENT SERIES</button>
             <div className="image-flex">
-                {element.map(param => (
+                {element.map((param, index) => (
 
-                    <div className="p-card-img">
+                    <div className="p-card-img" key={index.id}>
                         <img src={param.thumb} alt="" className="img-card-dc" />
                         <h4>{param.series}</h4>
                     </div>
 
                 ))}
             </div>
-
+            <div className="image-flex">
+                <button className="btn-bottom">LOAD MORE</button>
+            </div>
         </>
     )
 }
