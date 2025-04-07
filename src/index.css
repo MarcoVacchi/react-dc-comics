@@ -189,7 +189,8 @@
  .img-jumbo {
    height: 400px;
    width: 100%;
-   background-size: contain;
+   background-size: cover;
+   background-image: url(./assets/img/jumbotron.jpg);
  }
 
  .btn-bottom {

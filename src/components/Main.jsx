@@ -8,6 +8,7 @@ function Main() {
     return (
         <>
             <main>
+                <div className="img-jumbo"></div>
                 <div className="container-h1">
                     < ProductCard comicsArray={comicsArray} />
                 </div>
